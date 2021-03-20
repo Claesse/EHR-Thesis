@@ -1,0 +1,5 @@
+EHR.deployed().then(function(instance) {app = instance})
+Initiates app in truffle console
+
+web3.eth.getAccounts().then(function(acc) {accounts=acc;})
+Makes it possible to retrieve accounts, by using accounts[1] etc.
