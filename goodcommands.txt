@@ -3,3 +3,9 @@ Initiates app in truffle console
 
 web3.eth.getAccounts().then(function(acc) {accounts=acc;})
 Makes it possible to retrieve accounts, by using accounts[1] etc.
+
+app.registerPatient("Oscar", 1995, 5, 20, "Stockholm")
+Quick truffle console register
+
+app.registerDoctor("Mike", 1995, 5, 25, "Stockholm", "Cardiologist", {from:accounts[1]})
+Quick truffle console register doctor.
